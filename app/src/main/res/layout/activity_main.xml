@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context=".MainActivity">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_weight="0.2">
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="WELCOME"
+
+           android:gravity="center"
+           android:textSize="30sp"
+           android:textColor="@android:color/black"
+           android:layout_gravity="center"
+           android:layout_marginTop="50dp"/>
+
+
+       <EditText
+           android:id="@+id/edit1"
+           android:layout_width="200sp"
+           android:layout_height="wrap_content"
+           android:hint="enter id"
+           android:layout_gravity="center"
+           android:layout_marginTop="100dp" />
+
+       <EditText
+           android:id="@+id/edit2"
+           android:layout_width="200sp"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:hint="enter name"
+           android:layout_marginTop="10dp" />
+
+
+       <EditText
+           android:id="@+id/edit3"
+           android:layout_width="200sp"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:hint="enter profile"
+           android:layout_marginTop="10dp" />
+
+
+
+
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.3">
+
+
+        <Button
+            android:id="@+id/btninsert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:background="@android:color/black"
+            android:text="INSERT"
+            android:textColor="@android:color/white"
+
+
+            />
+
+        <Button
+            android:id="@+id/btniFetch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:background="@android:color/black"
+            android:text="FETCH"
+            android:textColor="@android:color/white"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
